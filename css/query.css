@@ -1,0 +1,33 @@
+@media screen and (max-width:576px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description h1 {
+        width: 100%;
+    }
+
+    .description p {
+        width: 100%;
+    }
+
+    .description button {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .description h1 {
+        width: 100%;
+    }
+
+    .description p {
+        width: 100%;
+    }
+
+    .description button {
+        width: 70%;
+    }
+}
